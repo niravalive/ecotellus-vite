@@ -27,13 +27,12 @@ jobs:
       - name: Deploy to Live Server (Overwrite)
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ftp.ecotellus.com
+          server: 119.18.58.248
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: 21
           protocol: ftp
           local-dir: dist/
-          server-dir: /public_html/
           dangerous-clean-slate: true
           timeout: 600000
           log-level: verbose
