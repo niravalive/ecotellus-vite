@@ -76,11 +76,11 @@ const Hero = () => {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 0.5 }}
                 >
-                  <img
-                    src="/assets/generated/movie-popcorn-lifestyle.png"
-                    alt="Movie Essentials — Premium Popcorn Tubs & Cinema Packaging"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                  />
+                   <img
+                     src="/assets/Ecotellus Web Images/General/Ecotellus Products (20).png"
+                     alt="Ecotellus Premium Food Packaging Products"
+                     className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-3xl flex items-end p-4">
                     <span className="text-white text-xs font-bold tracking-wider uppercase">Movie Essentials →</span>
                   </div>
@@ -128,8 +128,8 @@ const Hero = () => {
                   transition={{ duration: 0.8, delay: 0.2 }}
                 >
                   <img
-                    src="/assets/generated/coffee-shop-lifestyle.png"
-                    alt="Coffee Shop Essentials — Paper Cups, Lids & Takeaway Packaging"
+                    src="/assets/Ecotellus Web Images/Custom Packaging/bg2.webp"
+                    alt="Custom Packaging Solutions"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
 
